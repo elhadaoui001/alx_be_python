@@ -13,7 +13,7 @@ try:
 except ValueError:
     raise ValueError("Invalid temperature. Please enter a numeric value.")
 
-unit = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").strip().upper()
+unit = input("Is this temperature in Celsius or Fahrenheit? (C/F): ")
 
 if unit == 'F':
     print(f"{temp}°F is {convert_to_celsius(temp)}°C")
