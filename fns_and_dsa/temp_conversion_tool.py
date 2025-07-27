@@ -22,4 +22,3 @@ elif unit == 'C':
     print(f"{temp}°C is {convert_to_fahrenheit(temp)}°F")
 else:
     raise ValueError("Invalid unit. Please enter 'C' or 'F'.")
-
